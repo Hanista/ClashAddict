@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="DefaultLocale">
+        <ignore path="src/pidevs/socialsaddict/ServiceSocial.java" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="res/layout/activity_main.xml" />
+    </issue>
+    <issue id="UseValueOf" severity="ignore" />
+</lint>

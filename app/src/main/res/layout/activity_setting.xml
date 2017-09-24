@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/clash_background"
+    android:fitsSystemWindows="false">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <com.hanista.widget.HanistaTextView
+                    android:id="@+id/linetext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.50"
+                    android:gravity="right|center"
+                    android:text="@string/clear_options"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffd91b"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <com.hanista.widget.HanistaButton
+                    android:id="@+id/clear"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.73"
+                    android:textSize="@dimen/text_size_small"
+                    android:background="@drawable/selector"
+                    android:gravity="right"
+                    android:text="@string/clear_all"
+                    android:textColor="#ffffff"
+                    android:typeface="sans" />
+
+                <com.hanista.widget.HanistaTextView
+                    android:id="@+id/linetextr"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|center"
+                    android:text="@string/misc_options"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffd91b"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <com.hanista.widget.HanistaCheckBox
+                    android:id="@+id/checkBox1"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/start_service_at_boot" />
+
+                <com.hanista.widget.HanistaCheckBox
+                    android:id="@+id/checkBox3"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/clear_statictics_daily" />
+
+                <com.hanista.widget.HanistaCheckBox
+                    android:id="@+id/checkBox2"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hide_ongoing_notification"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.hanista.widget.HanistaTextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="right|center"
+                    android:text="@string/switches"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#01579b"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <com.hanista.widget.HanistaCheckBox
+                    android:id="@+id/telegrambox"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/clashofclans" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <com.hanista.widget.HanistaTextView
+                    android:id="@+id/statictics_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right|center"
+                    android:text="@string/about_about"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffd91b"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <com.hanista.widget.HanistaButton
+                    android:id="@+id/aboutapp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/selector"
+                    android:gravity="right"
+                    android:textSize="@dimen/text_size_small"
+                    android:text="@string/about_app"
+                    android:textColor="#ffffff" />
+
+                <com.hanista.widget.HanistaButton
+                    android:id="@+id/comment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector"
+                    android:gravity="right"
+                    android:textSize="@dimen/text_size_small"
+                    android:text="@string/comment_to_app"
+                    android:textColor="#ffffff" />
+
+                <com.hanista.widget.HanistaButton
+                    android:id="@+id/products"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector"
+                    android:gravity="right"
+                    android:textSize="@dimen/text_size_small"
+                    android:text="@string/products"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

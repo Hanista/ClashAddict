@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="clashaddict_app_name">اعتیادسنج کلش</string>
+    <string name="clashaddict_app_name_tag">#اعتیادسنج_کلش</string>
+    <string name="action_settings">تنظیمات</string>
+    <string name="about">اعتیادسنج کلش آف کلنز
+\n
+\nنسخه %s
+\n
+\nتنها برنامه اندازه گیری میزان اعتیاد به بازی کلش آف کلنز
+\n
+\n
+\nکاری از گروه برنامه نویسی هانیستا</string>
+
+    <string name="title_activity_setting">تنظیمات</string>
+	<string name="statistics">آمار</string>
+	<string name="social_o_meter">اعتیادسنج</string>
+	<string name="addiction_state">میزان اعتیاد : </string>
+	<string name="hour">ساعت</string>
+	<string name="minute">دقیقه</string>
+	<string name="second">ثانیه</string>
+	<string name="hour_per_day">ساعت در روز</string>
+	<string name="usage_rate">میانگین :</string>
+	<string name="total_socialize">کل زمان حضور در بازی :</string>
+	<string name="low">پایین</string>
+	<string name="average">متوسط</string>
+	<string name="attention">اخطار</string>
+	<string name="addicted">معتاد</string>
+	<string name="danger">خطرناک</string>
+	<string name="service_state">وضعیت سرویس</string>
+	<string name="service_activation">فعال سازی سرویس</string>
+	<string name="active">فعال</string>
+	<string name="inactive">غیر فعال</string>
+	<string name="clear_options">گزینه های حذف</string>
+	<string name="clear_all">حذف همه</string>
+	<string name="start_service_at_boot">فعال شدن سرویس اعتیادسنج در زمان روشن شدن گوشی</string>
+	<string name="clear_statictics_daily">حذف آمار در پایان هر روز</string>
+	<string name="hide_ongoing_notification">مخفی کردن نوتیفیکیشن</string>
+	<string name="misc_options">گزینه های عمومی</string>
+	<string name="switches">برنامه ها</string>
+	<string name="about_app">درباره برنامه</string>
+	<string name="comment_to_app">ثبت نظر در بازار</string>
+	<string name="about_about">درباره</string>
+	<string name="service_started">سرویس اعتیادسنج کلش فعال شد.</string>
+	<string name="service_is_on">اعتیادسنج کلش فعال است.</string>
+	<string name="share_statictics">آمار</string>
+	<string name="share_total">کل زمان حضور در بازی</string>
+	<string name="share_usage_and_addiction">میزان اعتیاد و میانگین</string>
+	<string name="share_via">اشتراک گذاری از طریق</string>
+	<string name="share_total_message">من تا حالا حدود %s ساعت کلش آف کلنز بازی کردم.</string>
+    <string name="share_usage_messsage">میانگین زمانی که کلش بازی می کنم : %s</string>
+    <string name="share_addiction_messsage">میزان اعتیاد من به بازی کلش : %s</string>
+	<string name="share_app_message">برنامه اعتیادسنج کلش را از اینجا بگیر</string>
+	<string name="welcome_message">به برنامه اعتیادسنج کلش خوش آمدید.\n\n\nبرای دستیابی به دقت بالاتر، مقدار مربوط  به \'میانگین\' پس از 24 ساعت و \'میزان اعتیاد\' پس از 4 ساعت محاسبه خواهد شد.\n\nبا تشکر از شما\nگروه برنامه نویسی هانیستا</string>
+	<string name="stop_service">توقف سرویس</string>
+	<string name="comment_message">لطفا با ثبت نظر و امتیاز، از ما حمایت کنید و موجب دلگرمی ما در ارائه نسخه های کاملتر شوید.</string>
+	<string name="set_comment">ثبت نظر</string>
+	<string name="exit">خروج</string>
+	<string name="clear_statisticts_confirm">آیا از حذف آمار برنامه اطمینان دارید؟</string>
+	<string name="clear_statisticts_success">آمار حذف شدند.</string>
+	<string name="clashofclans">کلش آف کلنز</string>
+</resources>

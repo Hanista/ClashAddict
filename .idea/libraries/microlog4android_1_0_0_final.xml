@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="microlog4android-1.0.0-final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../HanistaMain/HanistaLibrary/libs/microlog4android-1.0.0-final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hmkcode="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/sharemenu"
+        android:icon="@drawable/shareic"
+        android:title="@string/share"
+        hmkcode:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/sharet"
+                android:icon="@drawable/shareic"
+                android:title="@string/share_total"/>
+            <item
+                android:id="@+id/sharea"
+                android:icon="@drawable/shareic"
+                android:title="@string/share_usage_and_addiction"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/setting_ic"
+        android:title="@string/action_settings"
+        hmkcode:showAsAction="always"/>
+
+</menu>

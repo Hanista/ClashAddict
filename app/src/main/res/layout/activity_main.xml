@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hanista="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/clash_background">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/relativeLayout3"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shape"
+            android:padding="10dp">
+
+            <include
+                layout="@layout/service_activation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/relativeLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <com.hanista.widget.HanistaTextView
+                    android:id="@+id/addiction_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/addiction_state_label"
+                    android:text="@string/low"
+                    android:textColor="#32CD32" />
+
+                <com.hanista.widget.HanistaTextView
+                    android:id="@+id/addiction_state_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/total_label"
+                    android:text="@string/addiction_state" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <com.hanista.widget.HanistaTextView
+                    android:id="@+id/total_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text=" 00 Hours" />
+
+                <com.hanista.widget.HanistaTextView
+                    android:id="@+id/total_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/total_socialize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+                <com.hanista.widget.HanistaTextView
+                    android:id="@+id/usage_rate_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="right"
+                    android:text="0 Hours/Day" />
+
+                <com.hanista.widget.HanistaTextView
+                    android:id="@+id/usage_rate_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/usage_rate" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout3"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shape"
+            android:padding="10dp">
+
+            <com.hanista.widget.HanistaTextView
+                android:id="@+id/btn_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/share"
+                android:gravity="center_vertical"
+                android:drawablePadding="5dp"
+                android:layout_alignParentLeft="true"
+                android:drawableLeft="@drawable/shareic" />
+
+            <com.hanista.widget.HanistaTextView
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"
+                hanista:fontFamily="thameen"
+                android:visibility="gone"
+                android:textSize="@dimen/text_size_medium"
+                android:text="@string/clashaddict_app_name" />
+
+            <com.hanista.widget.HanistaTextView
+                android:id="@+id/btn_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="@string/action_settings"
+                android:gravity="center_vertical"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/setting_ic" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
